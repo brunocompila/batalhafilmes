@@ -1,0 +1,27 @@
+server:
+  port: 8090
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/realmBatalhaFilme
+  datasource:
+    url: jdbc:h2:mem:batalhaFilmesdb
+    username: sa
+    password: 123456
+    driverClassName: org.h2.Driver
+  jpa:
+    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+  hibernate:
+      ddl-auto: create
+
+client:
+  mdb:
+    url: http://www.omdbapi.com/
+    apiKey: 6a02ce67
+
+app:
+  movies:
+    list: spider, batman, norbit, godfather, hulk, superman

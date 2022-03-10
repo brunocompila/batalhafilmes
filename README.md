@@ -10,23 +10,23 @@ nos serviços. Ao ser implantada a aplicação a documentação dos serviços po
 "<http://<servidor_da_aplicação>>/swagger-ui/index.html#" 
 
 # Serviços
-> #####- GET /filmes
+> - GET /filmes
 Obtém a Lista de Informações sobre os filmes. É definido a lista de filmes no arquivo de 
 propriedades da aplicação "application.yml" assim é possível mudar a lista de filme para o 
 jogo alterando a propriedade "app.movies.list" neste arquivo. Através dessa lista é feita a
 busca de informações sobre pontuação dos filmes na API externa: "http://www.omdbapi.com"
 com as informações obtidas é feito o cálculo das pontuações dos filmes.
 
-> #####- GET /lances
+> - GET /lances
 Recebe informações de dois filmes sendo um escolhido como o possível de maior pontuação em seguida 
 é feita a comparação e retorna o resultado se houve acerto na escolha. Assim o jogador terá informação
 de sua escolha entre os pares e saberá se pontuou no jogo.
 
-> #####- POST /jogos
+> - POST /jogos
 Após o jogador ter realizados várias jogadas a chamada desse Serviço irá armazenar
 o resultado dos jogos para cada Jogador.
 
-> #####- GET /jogos
+> - GET /jogos
 Obtém o resultado de cada jogador para comparação entre ambos e definir qual é o vencedor
 da rodada.
 
@@ -34,21 +34,21 @@ da rodada.
 
 >
 > ####- SpringSecuriy e Keycloak 
- Autenticação e Autorização
+ - Autenticação e Autorização
  
 > ####- OpenFeigin 
- Chamadas em API's externas
+ - Chamadas em API's externas
  
 > ####- vOpenApi 3.0 
- Documentação
+ - Documentação
  
 > ####- H2 
- banco de dados
+ - banco de dados
  
 > ####- JUnit, Mock e Hamcrest 
- Testes Unitários
+ - Testes Unitários
  
 > ####- Lombok 
- Geração de códigos
+ - Geração de códigos
 
 

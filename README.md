@@ -33,22 +33,22 @@ da rodada.
 # Tecnologias
 
 >
-> ####- SpringSecuriy e Keycloak 
- - Autenticação e Autorização
+>- SpringSecuriy e Keycloak 
+ Autenticação e Autorização
  
-> ####- OpenFeigin 
- - Chamadas em API's externas
+>- OpenFeigin 
+ Chamadas em API's externas
  
-> ####- vOpenApi 3.0 
- - Documentação
+>- vOpenApi 3.0 
+ Documentação
  
-> ####- H2 
- - banco de dados
+>- H2 
+ banco de dados
  
-> ####- JUnit, Mock e Hamcrest 
- - Testes Unitários
+>- JUnit, Mock e Hamcrest 
+ Testes Unitários
  
-> ####- Lombok 
- - Geração de códigos
+>- Lombok 
+ Geração de códigos
 
 

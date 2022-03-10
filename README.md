@@ -34,16 +34,21 @@ da rodada.
 
 >
 > ####- SpringSecuriy e Keycloak 
-> Autenticação e Autorização
+ Autenticação e Autorização
+ 
 > ####- OpenFeigin 
-> Chamadas em API's externas
+ Chamadas em API's externas
+ 
 > ####- vOpenApi 3.0 
-> Documentação
+ Documentação
+ 
 > ####- H2 
-> banco de dados
+ banco de dados
+ 
 > ####- JUnit, Mock e Hamcrest 
-> Testes Unitários
+ Testes Unitários
+ 
 > ####- Lombok 
-> Geração de códigos
+ Geração de códigos
 
 
